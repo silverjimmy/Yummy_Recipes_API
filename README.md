@@ -1,5 +1,6 @@
 
-[![Build Status](https://travis-ci.org/silverjimmy/Yummy_Recipes_Api.svg?branch=master)](https://travis-ci.org/silverjimmy/Yummy_Recipes_Api)
+[![Build Status]
+(https://travis-ci.org/silverjimmy/Yummy_Recipes_Api.svg?branch=master)](https://travis-ci.org/silverjimmy/Yummy_Recipes_Api)
 #Yummy_Recipes_Api
 
 ## Introduction
