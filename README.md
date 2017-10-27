@@ -25,6 +25,11 @@ pip install -r requirements.txt
 ```
 python run.py
 ```
+* for tests run in terminal using:
+
+```
+pytest tests
+```
 
 #### URL endpoints
 
