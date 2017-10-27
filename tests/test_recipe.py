@@ -105,7 +105,7 @@ class TestRecipe(BaseTestCase):
     def test_get_recipes_invalid_id(self):
         # invalid recipe id, recipe that does not exist
         self.login_user()
-        response = self.client.get("/recipes/<1>", headers={
+        response = self.client.get("/recipes/1", headers={
             "Authorization": "Bearer {}".format(self.token)})
         self.assertEqual(response.status_code, 400)
         # test we return error json containing error message
