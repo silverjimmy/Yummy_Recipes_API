@@ -1,7 +1,7 @@
 from datetime import datetime
 import unittest
 from flask import json
-from .test_base import BaseTestCase
+from tests.test_base import BaseTestCase
 from recipe.models import db, User, Recipe, Categories
 
 

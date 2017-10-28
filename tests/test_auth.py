@@ -1,6 +1,6 @@
 import unittest
 from flask import json
-from .test_base import BaseTestCase
+from tests.test_base import BaseTestCase
 
 
 class TestLogin(BaseTestCase):
