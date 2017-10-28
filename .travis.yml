@@ -4,6 +4,7 @@ python:
 # Install all dependencies
 install:
     - pip install -r requirements.txt
+    - pip install psycopg2
 # command to run tests
 script: pytest
 after_success:

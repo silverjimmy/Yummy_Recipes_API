@@ -1,4 +1,4 @@
-#!/home/boon/Desktop/master/Yummy_recipe_Api/venv/bin/python
+#!/home/boon/Desktop/Yummy_recipe_Api/venv/bin/python
 
 import sys
 import getopt
