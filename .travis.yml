@@ -1,11 +1,13 @@
 language: python
+sudo: required
 python:
     - "2.7.12"
 # Install all dependencies
 install:
-    - pip install -r requirements.txt
-    - pip install psycopg2
+    -sudo pip install -r requirements.txt
+    -sudo pip install coveralls
 # command to run tests
-script: pytest
+script:
+    -nosetests --with-coverage --cover-erase --cover-package=tests
 after_success:
     - coveralls
