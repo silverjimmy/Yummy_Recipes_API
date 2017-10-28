@@ -1,11 +1,10 @@
 language: python
-sudo: required
 python:
     - "2.7.12"
 # Install all dependencies
 install:
-    -sudo pip install -r requirements.txt
-    -sudo pip install coveralls
+    -pip install -r requirements.txt
+    -pip install coveralls
 
 services:
     - postgresql
