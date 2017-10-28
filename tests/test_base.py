@@ -7,8 +7,7 @@ class BaseTestCase(unittest.TestCase):
 
     def setUp(self):
         """ Default configuration. """
-        app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///../testrecipe.db"
-        # app.config["SQLALCHEMY_DATABASE_URL"] = "postgresql://postgres:admin1234@localhost/recipeapi"
+        app.config["SQLALCHEMY_DATABASE_URL"] = "postgresql://postgres:admin1234@localhost/sample_db"
         app.config["TESTING"] = True
         """ Update to use fixtures instead """
         db.drop_all()
