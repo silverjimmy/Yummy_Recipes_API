@@ -13,7 +13,7 @@ before_script:
     - psql -c 'create database sample_db;' -U postgres
 # command to run tests
 script:
-    -nosetests --with-coverage --cover-erase --cover-package=tests
+    - nosetests --with-coverage --cover-erase --cover-package=tests
 after_success:
     - coveralls
     
