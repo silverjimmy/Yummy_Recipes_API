@@ -10,6 +10,16 @@ Flask API
 
 ## Installation
 
+Read to Create a virtual environment to work on the project.
+
+```
+virtualenv "name of the venv u want"
+```
+Then Activate the venv using:
+```
+source "name of the venv u want"/bin/activate
+```
+
 * Navigate to the application directory:
 
 ```
